@@ -1,0 +1,12 @@
+{
+  "name": "fletch-skills",
+  "description": "Claude Code skills by Fletcher Thomas.",
+  "owner": { "name": "Fletcher Thomas", "url": "https://fletcheese.dev" },
+  "plugins": [
+    {
+      "name": "fletch-skills",
+      "source": "./",
+      "description": "writing-for-readers and ask-me-artifact."
+    }
+  ]
+}

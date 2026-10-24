@@ -1,0 +1,61 @@
+{
+  "title": "Launch page decisions",
+  "ask": "Pick a direction for the three decisions below so the launch page can be built this week.",
+  "summary": "The launch page is blocked on layout, signup scope and the headline. Each question carries a recommendation, so accepting all three takes a minute.",
+  "findings": [
+    "The current hero image is 2.1 MB and is the slowest thing on the page.",
+    "Most visitors arrive on a phone.",
+    "The signup form currently asks for six fields."
+  ],
+  "boundary": "Detail below: about 2 minutes. Read it if you need to know what each option changes or why one is recommended.",
+  "sections": [
+    {
+      "heading": "Layout",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Which hero layout should the page use?",
+          "body": "The page needs one hero. Option A keeps the large image and loads slowest on a phone. Option B uses a text-only hero that loads instantly but is plainer.",
+          "type": "radio",
+          "figures": [
+            {
+              "label": "Each option on a phone",
+              "cols": 2,
+              "items": [
+                {"src": "img/hero-a.png", "caption": "A: image hero", "mode": "phone"},
+                {"src": "img/hero-b.png", "caption": "B: text hero", "mode": "phone"}
+              ]
+            }
+          ],
+          "tradeoff": "A looks richer; B is about two seconds faster on a slow connection.",
+          "options": [
+            {"value": "a", "label": "Keep the image hero, compressed to under 300 KB."},
+            {"value": "b", "label": "Use the text-only hero, and move the image further down the page.", "recommended": true}
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Signup",
+      "questions": [
+        {
+          "id": "q2",
+          "title": "Which signup fields are required?",
+          "body": "Every required field lowers completion. Email is the only field the welcome flow needs; the rest can be asked later.",
+          "type": "checkbox",
+          "options": [
+            {"value": "email", "label": "Email (needed to send the welcome message)", "recommended": true},
+            {"value": "name", "label": "Name (used to personalise the welcome message)"},
+            {"value": "company", "label": "Company (used to route sales follow-up)"}
+          ]
+        },
+        {
+          "id": "q3",
+          "title": "What should the headline say?",
+          "body": "One line, under ten words, in the voice the rest of the site uses. Leave it blank and the current draft headline ships.",
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}

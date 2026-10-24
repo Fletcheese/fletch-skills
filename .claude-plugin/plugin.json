@@ -1,0 +1,10 @@
+{
+  "name": "fletch-skills",
+  "version": "0.1.0",
+  "description": "Two Claude Code skills: writing-for-readers fits text to its reader and job; ask-me-artifact publishes an Artifact that asks you blocking questions and saves your answers for a later session.",
+  "author": { "name": "Fletcher Thomas", "url": "https://fletcheese.dev" },
+  "homepage": "https://fletcheese.dev",
+  "repository": "https://github.com/Fletcheese/fletch-skills",
+  "license": "MIT",
+  "keywords": ["skills", "writing", "artifacts", "questionnaire"]
+}
