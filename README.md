@@ -1,13 +1,31 @@
 # fletch-skills
 
-Two skills for [Claude Code](https://docs.claude.com/en/docs/claude-code/overview), by [Fletcher Thomas](https://fletcheese.dev).
+Skills and guides for [Claude Code](https://docs.claude.com/en/docs/claude-code/overview), by [Fletcher Thomas](https://fletcheese.dev).
+
+## How to use this repo
+
+The line between a skill and a guide is fuzzy. Both are context that shapes how Claude does your work. A skill loads itself when Claude decides it is relevant. A guide is something you or Claude read on purpose.
+
+Don't install my skills as they are and call it done, and the same goes for anyone else's. Read the skill first. Talk through with Claude how it would fit the way you use AI, then adapt it to your setup: your vocabulary, your tools, your file layout, and the rules you actually want enforced. If you haven't thought a skill through, you can't trust it or maintain it.
+
+In practice, open a Claude Code session in this repo, or point Claude at one skill or guide. Ask it to compare that file with your current setup and propose an adapted version. Then edit the result together until it reads like something you wrote.
+
+## Skills
 
 | Skill | What it does | Invoked |
 |---|---|---|
 | [writing-for-readers](skills/writing-for-readers/SKILL.md) | Classifies a piece of writing by who acts on it (an agent, future you, a colleague, a client, a vendor) and what they do with it (act, recall, diagnose, decide, inform, ask), then drafts to that cell's rules or reviews the text against them. Ships a 14-cell taxonomy with the reason beside every rule and an example in every cell. | automatically, when you draft or review text someone else will act on |
 | [ask-me-artifact](skills/ask-me-artifact/SKILL.md) | Publishes a claude.ai Artifact that asks you the questions blocking a piece of work. Radio, checkbox and free-text questions, a recommendation on every choice, optional images of each option, answers saved as you type, and a Submit button. A later session reads your answers back from the artifact's database. | when you ask for it, or when another skill wants async answers |
 
-## Install
+## Guides
+
+| Guide | What it covers |
+|---|---|
+| [memory-index-strategy](guides/memory-index-strategy.md) | How to keep Claude Code's auto-loaded `MEMORY.md` under its size cap with a three-tier index (categories, category indexes, memory files), with the measurements behind each rule and a read-only script that finds orphaned memories and broken index links. |
+
+A guide is plain Markdown and needs no install. Read it on GitHub, or give Claude the file and ask it to work through it with you.
+
+## Install the skills
 
 Pick one.
 
