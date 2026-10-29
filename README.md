@@ -4,11 +4,15 @@ Skills and guides for [Claude Code](https://docs.claude.com/en/docs/claude-code/
 
 ## How to use this repo
 
-The line between a skill and a guide is fuzzy. Both are context that shapes how Claude does your work. A skill loads itself when Claude decides it is relevant. A guide is something you or Claude read on purpose.
+The line between a skill and a guide is fuzzy. Both are context that shapes how Claude does your work. A skill loads itself when Claude decides it is relevant. A guide is something Claude reads when you ask it to.
 
-Don't install my skills as they are and call it done, and the same goes for anyone else's. Read the skill first. Talk through with Claude how it would fit the way you use AI, then adapt it to your setup: your vocabulary, your tools, your file layout, and the rules you actually want enforced. If you haven't thought a skill through, you can't trust it or maintain it.
+You don't need to read these files yourself. Give Claude the GitHub URL of this repo, or of one skill or guide, and ask it to read it and talk through with you whether and how it fits the way you use Claude. For example:
 
-In practice, open a Claude Code session in this repo, or point Claude at one skill or guide. Ask it to compare that file with your current setup and propose an adapted version. Then edit the result together until it reads like something you wrote.
+```
+Read https://github.com/Fletcheese/fletch-skills and tell me which of these would help with how I use you, and how you'd adapt them.
+```
+
+Claude knows how you use it, so it will usually judge well whether a skill or guide will help you. When one does, adapt it with Claude to your vocabulary, your tools, your file layout and the rules you want enforced, rather than installing my version as it is. If you try it and think Claude got it wrong, tell it why and it will adapt.
 
 ## Skills
 
@@ -23,7 +27,7 @@ In practice, open a Claude Code session in this repo, or point Claude at one ski
 |---|---|
 | [memory-index-strategy](guides/memory-index-strategy.md) | How to keep Claude Code's auto-loaded `MEMORY.md` under its size cap with a three-tier index (categories, category indexes, memory files), with the measurements behind each rule and a read-only script that finds orphaned memories and broken index links. |
 
-A guide is plain Markdown and needs no install. Read it on GitHub, or give Claude the file and ask it to work through it with you.
+A guide is plain Markdown and needs no install. Give Claude its GitHub URL and work through it together.
 
 ## Install the skills
 
