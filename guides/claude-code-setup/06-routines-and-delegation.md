@@ -4,6 +4,8 @@ Purpose: what runs on a schedule, and how work is split between sessions and age
 
 ## The front desk: First Mate
 
+The pattern comes from Kun's [firstmate](https://github.com/kunchenguid/firstmate), which I have heavily adapted.
+
 One long-running session, pinned in the sidebar, that does no hands-on work.
 It:
 - adds a board row for each request and starts a task session or a background agent for it;

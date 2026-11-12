@@ -11,12 +11,13 @@ This is not the skill text.
 [Matt Pocock](https://github.com/mattpocock/skills) means a fork of a skill from Matt Pocock's `mattpocock/skills`, MIT licensed.
 [pstack](https://github.com/cursor/plugins/tree/main/pstack/skills) means a fork of a skill from Lauren Tan's `pstack` plugin in `cursor/plugins`, MIT licensed.
 Anthropic means one of Anthropic's own skills.
+[firstmate](https://github.com/kunchenguid/firstmate) by Kun, heavily adapted, means a skill that started from Kun's `firstmate` and has since been heavily adapted.
 
 ## Running the day
 
 | Skill | When it fires | What it does | Portable | Source |
 |---|---|---|---|---|
-| first-mate | "first mate", "dispatch this" | Runs one long-standing session that dispatches work to task sessions and agents, tracks it on a board on disk, and relays only what needs me | Pattern | mine |
+| first-mate | "first mate", "dispatch this" | Runs one long-standing session that dispatches work to task sessions and agents, tracks it on a board on disk, and relays only what needs me | Pattern | [firstmate](https://github.com/kunchenguid/firstmate) by Kun, heavily adapted |
 | defer / done | Typed | Parks a session until a revive date, or closes it with evidence, updating its board row and archiving the session | Pattern | mine |
 | handoff | Context too large, or "hand off" | Compacts the conversation into a handoff document for a fresh session | Yes | [Matt Pocock](https://github.com/mattpocock/skills) |
 | meeting-notes | "taking notes for a call" | Records a meeting in its folder, hands the actions to the board as rows, and writes an outcomes summary | Pattern | mine |
