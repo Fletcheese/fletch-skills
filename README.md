@@ -26,6 +26,7 @@ Claude knows how you use it, so it will usually judge well whether a skill or gu
 | Guide | What it covers |
 |---|---|
 | [memory-index-strategy](guides/memory-index-strategy.md) | How to keep Claude Code's auto-loaded `MEMORY.md` under its size cap with a three-tier index (categories, category indexes, memory files), with the measurements behind each rule and a read-only script that finds orphaned memories and broken index links. |
+| [claude-code-setup](guides/claude-code-setup/README.md) | How I run Claude Code every day: one front-desk session, tiered memory, hooks as guardrails, skills, routines and the lessons behind each rule. |
 
 A guide is plain Markdown and needs no install. Give Claude its GitHub URL and work through it together.
 
